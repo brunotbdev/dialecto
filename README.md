@@ -17,9 +17,7 @@ A lightweight translation tool for React apps with support for variables, nested
 <br/>
 <br/>
 
-```sh
-npm install dialecto
-```
+<pre>npm install dialecto</pre>
 
 <br/>
 
@@ -27,11 +25,11 @@ npm install dialecto
 
 - [📄 Documentation](#-documentation)
   - [🚀 Getting Started](#-getting-started)
-  - [⚙️ Importing and configuration](#-importing-and-configuration)
+  - [🔧 Importing and configuration](#-importing-and-configuration)
   - [📋 List of all configurations](#-list-of-all-configurations)
   - [Default Tags](#default-tags)
   - [Default Attributes](#default-attributes)
-  - [🛠️ Usage](#-usage)
+  - [🔨 Usage](#-usage)
   - [📝 Full Example](#-full-example)
 
 ## 📄 Documentation
@@ -40,7 +38,7 @@ npm install dialecto
 
 - Create a folder for your translations and create JSON files for them.
 
-```json
+```js
 // src/translations/en-us.json
 
 {
@@ -48,7 +46,7 @@ npm install dialecto
 }
 ```
 
-```json
+```js
 // src/translations/pt-br.json
 
 {
@@ -56,7 +54,7 @@ npm install dialecto
 }
 ```
 
-### ⚙️ Importing and Configuration
+### 🔧 Importing and Configuration
 
 - Import the Dialecto provider and wrap your app with it. Then, import your translations and configure the package using <code>dialectoConfig</code>.
 - Language keys must follow the <strong>BCP 47 format and be lowercase</strong>.
@@ -137,7 +135,7 @@ createRoot(document.getElementById("root")).render(
 }
 ```
 
-### 🛠️ Usage
+### 🔨 Usage
 
 - Import <code>useDialecto</code> to get the functions.
 
@@ -165,7 +163,7 @@ export default function App() {
 
 ### 📝 Full Example
 
-```json
+```js
 // src/translations/en-us.json
 
 {
