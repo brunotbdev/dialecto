@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "moduleResolution": "nodenext",
+    "target": "ES2023",
+    "module": "nodenext",
+    "lib": ["DOM", "DOM.Iterable", "ES2023"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "outDir": "dist"
+  },
+  "include": ["src"]
+}
