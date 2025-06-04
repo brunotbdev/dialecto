@@ -1,7 +1,7 @@
 {
   "name": "dialecto",
   "description": "A lightweight translation tool for React apps, with support for variables, nested keys, and HTML parsing.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "brunotbdev",
   "license": "MIT",
   "repository": "https://github.com/brunotbdev/dialecto",

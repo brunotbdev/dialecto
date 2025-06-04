@@ -14,7 +14,7 @@ import {
 import type { Config } from "./configs.js";
 
 interface DialectoContextType {
-  d: (path: string, vars?: Record<string, Record<string, string>>) => ReactNode;
+  d: (path: string, vars?: Record<string, string | number>) => ReactNode;
   changeLang: (langCode: string) => void;
 }
 
@@ -88,7 +88,7 @@ const Dialecto = ({ children }: DialectoProps) => {
    */
   function d(
     path: string,
-    vars?: Record<string, Record<string, string>>
+    vars?: Record<string, string | number>
   ): ReactNode[] {
     const text = path.split(".").reduce((acc: any, key) => {
       return acc?.[key];
